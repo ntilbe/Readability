@@ -1,0 +1,8 @@
+﻿  Readability.cpp
+C:\Users\User\source\repos\ntilbe\Readability\Readability\Readability\Readability.cpp(11,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\source\repos\ntilbe\Readability\Readability\Readability\Readability.cpp(25,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\source\repos\ntilbe\Readability\Readability\Readability\Readability.cpp(39,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\source\repos\ntilbe\Readability\Readability\Readability\Readability.cpp(55,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\source\repos\ntilbe\Readability\Readability\Readability\Readability.cpp(56,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\source\repos\ntilbe\Readability\Readability\Readability\Readability.cpp(60,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Readability.vcxproj -> C:\Users\User\source\repos\ntilbe\Readability\Readability\Debug\Readability.exe
