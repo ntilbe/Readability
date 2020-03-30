@@ -50,29 +50,29 @@ int count_sentences(string s)
 int main(void)
 {
     string s;
+    cout << "Text: ";
     getline(cin, s);
 
-    float L = count_letters(s) / count_words(s) * 100;
-    float S = count_sentences(s) / count_words(s) * 100;
+    float L = (float)count_letters(s) / (float)count_words(s) * 100.0;
+    float S = (float)count_sentences(s) / (float)count_words(s) * 100.0;
 
 
     int index = 0;
     index = round(0.0588 * L - 0.296 * S - 15.8);
-    cout << ("%f %f %i\n", L, S, index);
 
-    cout << ("Text: " + s) << endl;
+    cout << "Text: " << s << endl;
 
     if (index < 1)
     {
-        cout << ("Before Grade 1\n");
+        cout << "Before Grade 1\n";
     }
     else if (index >= 16)
     {
-        cout << ("Grade 16+\n");
+        cout << "Grade 16+\n";
     }
     else
     {
-        cout << ("Grade \n" + index);
+        cout << "Grade " << index << endl;
     }
 
 }
